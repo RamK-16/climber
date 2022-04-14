@@ -1,0 +1,86 @@
+.body {
+  background-image: url(./img/111.png);
+}
+
+.pole {
+  position: relative;
+  margin-left: 10vw;
+  width: 1200px;
+  height: 1000px;
+  overflow: hidden;
+  background-size: 70%;
+}
+.mountain {
+  position: absolute;
+  top: 200px;
+  width: 220%;
+  background-image: url(./img/99px_ru_wallpaper_257113_poristie_oblaka_v_nebe.jpg);
+  background-size: 50%;
+  border: 1px solid chocolate;
+}
+.win {
+  display: none;
+  position: absolute;
+  left: 1079px;
+  top: 190px;
+  width: 8%;
+  height: 8%;
+}
+.punkts {
+  position: absolute;
+  height:0.5%;
+  width: 4%;
+  background-color: aqua;
+}
+#pu1 {
+  left: 286px;
+  top: 840px;
+}
+#pu2 {
+  left: 370px;
+  top: 750px;
+}
+#pu3 {
+  left: 545px;
+  top: 550px;
+}
+#pu4 {
+  left: 742px;
+  top: 465px;
+}
+#pu5 {
+  left: 960px;
+  top: 400px;
+}
+#pu6 {
+  left: 1120px;
+  top: 260px;
+}
+
+.climber {
+  position: absolute;
+  height:8%;
+  width: 5%;
+  left: 286px;
+  top: 840px;
+}
+
+.heli {
+  position: absolute;
+  height:8%;
+  width: 12%;
+  display: none;
+}
+.borderRigth {
+  position: absolute;
+  height:74.5%;
+  width: 1px;
+  left: 1199px;
+  top: 200px;
+  
+  background-color: chocolate;
+}
+
+.clones {
+  display: block;
+}
